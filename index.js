@@ -1,6 +1,6 @@
 
 function produceDrivingRange(range){
-  return function(dist){
+  return function(str,end){
     return range>=dist;
   };
 }
