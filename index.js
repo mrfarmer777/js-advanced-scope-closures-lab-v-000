@@ -1,6 +1,9 @@
 
 function produceDrivingRange(range){
   return function(str,end){
-    return range>=dist;
+    let dist=parseInt(end)-parseInt(str);
+    if(range<=dist){
+      return ""
+    }
   };
 }
