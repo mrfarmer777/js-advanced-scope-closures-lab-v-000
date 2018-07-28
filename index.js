@@ -15,3 +15,12 @@ function produceTipCalculator(perc){
     return fare*perc;
   };
 }
+
+function createDriver(){
+  let driverId=0;
+  class Driver{
+    constructor(){
+      this.id=++driverId;
+    }
+  }
+}
