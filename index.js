@@ -1,7 +1,7 @@
 
 function produceDrivingRange(range){
   return function(str,end){
-    let dist=Math.abs(parseInt(end)-parseInt(str))
+    let dist=Math.abs(parseInt(end)-parseInt(str));
     if(range>=dist){
       return `within range by ${dist}`;
     } else {
